@@ -1,0 +1,19 @@
+{
+  "max_epochs": 4,
+  "batch_size": 18,
+  "learning_rate": 0.0001,
+  "monitor": "auc",
+  "patience": 5,
+  "min_delta": 0.0001,
+  "lr_factor": 0.5,
+  "sched_patience": 1,
+  "cooldown": 0,
+  "min_lr": 1e-07,
+  "lambda_da": 0.15,
+  "lambda_mmd": 0.02,
+  "grl_lambda": 0.5,
+  "grl_k": 5.0,
+  "k_da": 1.0,
+  "resume_from": "DA_saved_model/without/best_without_attention_epoch1_loss0.6974_acc0.7415_auc0.8902.pth",
+  "stop_now": false
+}
